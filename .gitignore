@@ -1,47 +1,46 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+libraries
+!inst/libraries
+.giternal.yml
+makefile
 .DS_Store
-.AppleDouble
-.LSOverride
+.cache/
+*.Rproj
+*.ico
+bootswatch
+inst/README.md
+inst/examples
+*.Rhistory
+archives
 
-# Thumbnails
-._*
+libraries/frameworks/deckjs
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+libraries/frameworks/revealjs
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+libraries/widgets/nvd3
+
+libraries/frameworks/dzslides
+
+libraries/frameworks/impressjs
+
+libraries/frameworks/io2012
+
+libraries/frameworks/landslide
+
+libraries/frameworks/showoff
+
+libraries/widgets/scianimator
+
+libraries/widgets/quiz
+
+libraries/frameworks/fathomjs
+
+libraries/widgets/quiz2
+
+libraries/widgets/ace
+.Rproj.user
+
+libraries/frameworks/flowtime
+
+libraries/frameworks/bespoke
+
+libraries/widgets/morrisjs
